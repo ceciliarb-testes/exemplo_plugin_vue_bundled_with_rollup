@@ -1,0 +1,25 @@
+{
+  "name": "plugin_teste_3",
+  "version": "1.0.0",
+  "description": "Plugin vuejs empacotado com rollup",
+  "main": "index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-node-resolve": "^4.2.4",
+    "rollup-plugin-vue": "^5.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
